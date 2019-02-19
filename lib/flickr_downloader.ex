@@ -35,7 +35,7 @@ defmodule FlickrDownloader do
   end
 
   def get_photos do
-    #get_photos_not_in_set()
+    get_photos_not_in_set()
     get_photos_in_set()
   end
 
